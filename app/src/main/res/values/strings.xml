@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AplikasiAlQuran</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us_description">
+        Aplikasi Al-Quran ini dirancang untuk mempermudah Anda dalam membaca dan memahami Al-Quran di mana pun dan kapan pun.
+        Aplikasi ini dilengkapi dengan terjemahan Bahasa Indonesia, teks latin untuk membantu pengucapan, dan fitur pencarian surah agar Anda dapat menemukan surah yang diinginkan dengan cepat.
+        Kami berkomitmen untuk terus mengembangkan fitur-fitur baru dan meningkatkan pengalaman pengguna. Semoga aplikasi ini bermanfaat bagi Anda dalam memperdalam pemahaman agama.
+        Jazakumullah Khairan Katsiran.
+    </string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:background="@color/hijau_soft">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvAyatNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/hijau_gelap_teks" />
+
+        <TextView
+            android:id="@+id/tvAyatArabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="end"
+            android:text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvAyatTransliteration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="bismi Allāhi al-raḥmāni al-raḥīmi"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="@color/abu_tua" />
+
+        <TextView
+            android:id="@+id/tvAyatIndonesia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+            android:textSize="16sp"
+            android:textColor="@color/hijau_gelap_teks" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

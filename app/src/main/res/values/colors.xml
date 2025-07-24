@@ -1,0 +1,12 @@
+<resources>
+    <color name="hijau_primary">#4CAF50</color>
+    <color name="hijau_primary_dark">#388E3C</color>
+    <color name="hijau_accent">#8BC34A</color>
+    <color name="hijau_muda">#C8E6C9</color>
+    <color name="hijau_soft">#A3DBB3</color>
+    <color name="hijau_gelap_teks">#1B5E20</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="abu_tua">#323131</color>
+
+</resources>

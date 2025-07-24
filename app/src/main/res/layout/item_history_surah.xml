@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:background="@color/hijau_soft">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivDeleteHistory"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_delete"
+            android:padding="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Hapus dari Riwayat" />
+
+        <TextView
+            android:id="@+id/tvSurahNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/hijau_gelap_teks"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/ivDeleteHistory"
+            android:layout_alignBaseline="@id/ivDeleteHistory" />
+
+        <TextView
+            android:id="@+id/tvSurahNameLatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSurahNumber"
+            android:layout_marginTop="4dp"
+            android:text="Al-Fatihah"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/hijau_primary_dark" />
+
+        <TextView
+            android:id="@+id/tvSurahNameArabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSurahNameLatin"
+            android:layout_marginTop="4dp"
+            android:text="الفاتحة"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/hijau_primary" />
+
+        <TextView
+            android:id="@+id/tvSurahMeaningAyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSurahNameArabic"
+            android:layout_marginTop="4dp"
+            android:text="Pembukaan | 7 Ayat"
+            android:textSize="14sp"
+            android:textColor="@color/hijau_gelap_teks" />
+
+        <TextView
+            android:id="@+id/tvSurahPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSurahMeaningAyat"
+            android:layout_marginTop="4dp"
+            android:text="Mekah"
+            android:textSize="12sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tvLastOpened"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSurahPlace"
+            android:layout_marginTop="4dp"
+            android:textSize="10sp"
+            android:textColor="@android:color/black"
+            tools:text="Dibuka: 11 Jun 2025, 23:00" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
